@@ -227,20 +227,20 @@ export default function ForecastPlanningTable() {
         </TableContainer>
       </CardContent>
       <Box
-  sx={{
-    display: "flex",
-    justifyContent: "flex-end",
-    gap: 1,
-    padding: 2,
-    borderTop: "1px solid #e0e0e0",
-  }}
->
-  <Button variant="outlined">Cancel</Button>
-  <Button variant="contained" color="primary">Save</Button>
-  <Button variant="contained" color="secondary">Update</Button>
-  <Button variant="contained" color="success">Approve</Button>
-  <Button variant="contained" color="error">Reject</Button>
-</Box>
+        sx={{
+          display: "flex",
+          justifyContent: "flex-end",
+          gap: 1,
+          padding: 2,
+          borderTop: "1px solid #e0e0e0",
+        }}
+      >
+        <Button variant="outlined">Cancel</Button>
+        <Button variant="contained" color="primary">Save</Button>
+        <Button variant="contained" color="secondary">Update</Button>
+        <Button variant="contained" color="success">Approve</Button>
+        <Button variant="contained" color="error">Reject</Button>
+      </Box>
 
     </Card>
   );

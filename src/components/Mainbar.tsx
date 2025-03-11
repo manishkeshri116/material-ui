@@ -5,6 +5,8 @@ import SearchBtn from "./SearchBtn";
 import Profile from "./Profile";
 import Filter from "./Filter";
 import ForecastPlanningTable from "./ForcastPlanning";
+import SuccessModals from "../modal/common-modal";
+import App from "../modals/App";
 
 const Mainbar = () => {
   return (
@@ -15,10 +17,10 @@ const Mainbar = () => {
         backgroundColor: "rgb(241, 238, 244)",
         width: "100vw",
         height: "100vh",
-        overflowY:"auto",
-        margin:0,
-        padding:0,
-        boxSizing:"border-box"
+        overflowY: "auto",
+        margin: 0,
+        padding: 0,
+        boxSizing: "border-box"
 
       }}
     >
@@ -26,19 +28,20 @@ const Mainbar = () => {
 
       <div
         style={{
-          flexGrow: 1, 
+          flexGrow: 1,
           display: "flex",
           flexDirection: "column",
           gap: "20px",
           padding: "20px",
-          marginLeft:60
+          marginLeft: 60
         }}
       >
         <Profile />
         <SearchBtn />
         <BasePlanType />
-        <Filter/>
-        <ForecastPlanningTable/>
+        <Filter />
+        <ForecastPlanningTable />
+        <App />
       </div>
     </div>
   );
