@@ -7,6 +7,7 @@ import Filter from "./Filter";
 import ForecastPlanningTable from "./ForcastPlanning";
 import SuccessModals from "../modal/common-modal";
 import App from "../modals/App";
+import GridTable from "../tables/DarftList";
 
 const Mainbar = () => {
   return (
@@ -36,12 +37,13 @@ const Mainbar = () => {
           marginLeft: 60
         }}
       >
-        <Profile />
+        {/* <Profile />
         <SearchBtn />
         <BasePlanType />
         <Filter />
-        <ForecastPlanningTable />
-        <App />
+        <ForecastPlanningTable /> */}
+        {/* <App /> */}
+        <GridTable/>
       </div>
     </div>
   );
